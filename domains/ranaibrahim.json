@@ -1,9 +1,15 @@
 {
   "owner": {
-    "username": "Dryed99",
-    "email": "dryed999@gmail.com"
+    "username": "dryed99"
   },
   "records": {
-    "CNAME": "statuesque-sable-07c546.netlify.app"
+    "A": ["75.2.60.5"],
+    "MX": [
+      {
+        "target": "smtp.foundermail.mx",
+        "priority": 10
+      }
+    ],
+    "TXT": "v=spf1 include:foundermail.mx ~all"
   }
 }
